@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import AuthService from "../services/AuthService";
-import { ToastContainer } from "../utils/toast";
+import AuthService from "/src/services/AuthService";
+import { ToastContainer } from "/src/utils/toast";
 import "./Layout.css"; // or "../styles/Layout.css"
 
 export default function Layout({ children }) {
