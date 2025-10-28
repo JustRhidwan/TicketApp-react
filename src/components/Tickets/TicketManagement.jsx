@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import toast from "../../utils/toast";
-import TicketForm from "./TicketForm";
+import TicketForm from "/src/components/Tickets/TicketForm";
 
 export default function TicketManagement() {
   const [tickets, setTickets] = useState([]);
