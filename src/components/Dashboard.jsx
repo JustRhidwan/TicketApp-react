@@ -1,7 +1,7 @@
 // src/components/Dashboard.jsx
 import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import toast from "../utils/toast";
+import toast from "/src/components/utils/toast";
 
 const Dashboard = () => {
   const navigate = useNavigate();
