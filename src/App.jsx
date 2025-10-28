@@ -1,12 +1,12 @@
 import React from "react";
-import RouterIndex from "./components/router/index.js";
+import RouterIndex from "./src/components/router/index.js";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route, Navigate } from "react-router-dom";
-import LandingPage from "./components/LandingPage";
-import Login from "./components/Auth/Login";
-import Signup from "./components/Auth/Signup";
-import Dashboard from "./components/Dashboard";
-import TicketManagement from "./components/Tickets/TicketManagement";
+import LandingPage from "./src/components/LandingPage";
+import Login from "./src/components/Auth/Login";
+import Signup from "./src/components/Auth/Signup";
+import Dashboard from "./src/components/Dashboard";
+import TicketManagement from "./src/components/Tickets/TicketManagement";
 import toast from "./utils/toast";
 
 // ✅ Protected Route Wrapper
