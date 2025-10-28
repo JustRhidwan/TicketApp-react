@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import toast from "./src/components/utils/toast";
+import toast from "/src/components/utils/toast";
 
 export default function Login() {
   const navigate = useNavigate();
