@@ -1,11 +1,11 @@
 import React from "react";
-import RouterIndex from "./src/components/router/index.js";
+import RouterIndex from "/src/components/router/index.js";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route, Navigate } from "react-router-dom";
-import LandingPage from "./src/components/LandingPage";
-import Login from "./src/components/Auth/Login";
-import Signup from "./src/components/Auth/Signup";
-import Dashboard from "./src/components/Dashboard";
+import LandingPage from "/src/components/LandingPage";
+import Login from "/src/components/Auth/Login";
+import Signup from "/src/components/Auth/Signup";
+import Dashboard from "/src/components/Dashboard";
 import TicketManagement from "./src/components/Tickets/TicketManagement";
 import toast from "./utils/toast";
 
